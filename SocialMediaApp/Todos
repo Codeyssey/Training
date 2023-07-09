@@ -1,0 +1,8 @@
+Able to login with username and email both
+Remove Update One from services of follow and unfollow users
+
+We can maintain posts array in user’s for reference
+Use less params in query string
+for example:
+feed?page=1&count=3&search=&sortedBy=createdAt&sortType=asc
+Its better to pass the sortType and sortBy in body
